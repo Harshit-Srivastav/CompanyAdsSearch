@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pageTitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: #90d118;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.ads-card {
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2rem;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ads-card-image {
+  object-fit:cover;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.ads-card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ads-card-body{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  height: 100%;
+}
